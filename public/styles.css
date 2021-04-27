@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.submit-page {
+	display: flex;
+	background: grey;
+	background-image: linear-gradient(#09203f, #537895, #96deda);
+	/* background-size: cover;
+	background-position: centre; */
+	height: 100vh;
+	color:seashell;
+	/* width: 100vw; */
+	padding-top: 100px;
+    text-align: center;
+    
+}
+
+.button-submit-page {
+	position: absolute;
+	background-color: grey;
+	background-image: linear-gradient(#09203f, #537895, #96deda);
+	margin-right: 50px;
+	animation: submitEffect 600ms;
+
+}
+
+.welcome {
+	animation: submitEffect 800ms;
+}
+
+.link-submit-page {
+	text-decoration: none;
+	animation: submitEffect 800ms;
+}
+
+
+
+@keyframes submitEffect {
+	0% {
+		opacity: 0;
+		transform: translateY(400px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
